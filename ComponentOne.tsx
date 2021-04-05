@@ -35,7 +35,6 @@ class ComponentOne extends Component<AppProps, AppState> {
     let { user } = this.state;
     return (
       <div>
-        <p>ComponentOne</p>
         <section className="mt-5">
           <div className="container">
             <div className="row">
