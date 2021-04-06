@@ -41,10 +41,12 @@ class ComponentOne extends Component<AppProps, AppState> {
               <div className="col-md-8">
                 <table className="table table-hover table-striped table-bordered">
                   <thead className="bg-primary">
-                    <th>ID</th>
-                    <th>User Name</th>
-                    <th>Email</th>
-                    <th>Website</th>
+                    <tr>
+                      <th>ID</th>
+                      <th>User Name</th>
+                      <th>Email</th>
+                      <th>Website</th>
+                    </tr>
                   </thead>
                   <tbody>
                     {this.state.user.map(user => {
